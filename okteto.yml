@@ -1,0 +1,9 @@
+name: online-spliceboard
+workdir: /app
+command: [ "php", "-S", "0.0.0.0:8080"]
+forward: 
+  - 8080:8080
+reverse:
+  - 9000:9000
+persistentVolume:
+  enabled: true

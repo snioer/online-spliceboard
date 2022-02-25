@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="css/spliceboard.css" />
     </head>
     <body>
-        <form method="post" action="/copy/php/spliceboard.php">
+        <form method="post" action="/php/spliceboard.php">
             <div id="sBody">
                 <textarea name="spliceboard" rows="23" cols="150">在此粘贴 ...</textarea><br />
                 <input type="submit" id="subscribe" name="subscribe" value="提交" /><br />
